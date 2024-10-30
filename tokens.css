@@ -223,38 +223,39 @@
     --border-radius-full: 99999px;
     /* Semantic tokens */
     /*Background*/
-    --color-bg-screen-surface: var(--color-neutral-6);
+    --color-bg-screen-surface: var(--color-neutral-4);
     --color-bg-screen-primary: var(--color-neutral-1);
     --color-bg-screen-inverse: var(--color-neutral-16);
     --color-bg-surface-primary: var(--color-neutral-1);
-    --color-bg-surface-tertiary: var(--color-neutral-5);
     --color-bg-surface-secondary: var(--color-neutral-4);
-    --color-bg-surface-brand: var(--color-blue-12);
+    --color-bg-surface-tertiary: var(--color-neutral-6);
+    --color-bg-surface-inverse: var(--color-neutral-14);
+    --color-bg-surface-disabled: var(--color-neutral-7);
+    --color-bg-surface-brand: var(--color-blue-4);
     --color-bg-surface-info: var(--color-teal-3);
     --color-bg-surface-success: var(--color-green-3);
     --color-bg-surface-caution: var(--color-yellow-2);
-    --color-bg-surface-critical: var(--color-red-4);
-    --color-bg-surface-discovery: var(--color-purple-2);
-    --color-bg-surface-disabled: var(--color-neutral-7);
     --color-bg-surface-warning: var(--color-orange-3);
+    --color-bg-surface-critical: var(--color-red-4);
+    --color-bg-surface-discovery: var(--color-purple-3);
     --color-bg-fill-primary: var(--color-neutral-1);
     --color-bg-fill-secondary: var(--color-neutral-6);
     --color-bg-fill-tertiary: var(--color-neutral-8);
-    --color-bg-fill-brand: var(--color-blue-13);
+    --color-bg-fill-inverse: var(--color-neutral-15);
+    --color-bg-fill-brand: var(--color-blue-12);
     --color-bg-fill-info: var(--color-teal-8);
     --color-bg-fill-success: var(--color-green-12);
     --color-bg-fill-caution: var(--color-yellow-6);
+    --color-bg-fill-warning: var(--color-orange-9);
     --color-bg-fill-critical: var(--color-red-12);
     --color-bg-fill-discovery: var(--color-purple-12);
-    --color-bg-fill-warning: var(--color-orange-9);
     /*Content*/
     --color-content-primary: var(--color-neutral-16);
     --color-content-secondary: var(--color-neutral-13);
     --color-content-tertiary: var(--color-neutral-10);
-    --color-content-link: var(--color-blue-13);
-    --color-content-inverse: var(--color-neutral-1);
-    --color-content-onfill-brand: var(--color-blue-1);
     --color-content-disabled: var(--color-neutral-11);
+    --color-content-inverse: var(--color-neutral-1);
+    --color-content-link: var(--color-blue-13);
     --color-content-brand: var(--color-blue-12);
     --color-content-info: var(--color-teal-14);
     --color-content-success: var(--color-green-14);
@@ -262,12 +263,13 @@
     --color-content-caution: var(--color-yellow-14);
     --color-content-discovery: var(--color-purple-14);
     --color-content-warning: var(--color-orange-14);
+    --color-content-onfill-brand: var(--color-blue-2);
+    --color-content-onfill-info: var(--color-teal-16);
     --color-content-onfill-success: var(--color-green-1);
     --color-content-onfill-caution: var(--color-yellow-15);
+    --color-content-onfill-warning: var(--color-orange-16);
     --color-content-onfill-critical: var(--color-red-1);
     --color-content-onfill-discovery: var(--color-purple-1);
-    --color-content-onfill-warning: var(--color-orange-16);
-    --color-content-onfill-info: var(--color-teal-16);
     /*Space*/
     --space-card-padding: var(--space-160);
     /*Radius */
