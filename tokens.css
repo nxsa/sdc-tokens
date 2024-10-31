@@ -243,7 +243,7 @@
     --color-bg-fill-tertiary: var(--color-neutral-8);
     --color-bg-fill-inverse: var(--color-neutral-15);
     --color-bg-fill-brand: var(--color-blue-12);
-    --color-bg-fill-info: var(--color-teal-8);
+    --color-bg-fill-info: var(--color-teal-11);
     --color-bg-fill-success: var(--color-green-12);
     --color-bg-fill-caution: var(--color-yellow-6);
     --color-bg-fill-warning: var(--color-orange-9);
@@ -264,7 +264,7 @@
     --color-content-discovery: var(--color-purple-14);
     --color-content-warning: var(--color-orange-14);
     --color-content-on-fill-brand: var(--color-blue-2);
-    --color-content-on-fill-info: var(--color-teal-16);
+    --color-content-on-fill-info: var(--color-teal-1);
     --color-content-on-fill-success: var(--color-green-1);
     --color-content-on-fill-caution: var(--color-yellow-15);
     --color-content-on-fill-warning: var(--color-orange-16);
