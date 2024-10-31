@@ -263,13 +263,13 @@
     --color-content-caution: var(--color-yellow-14);
     --color-content-discovery: var(--color-purple-14);
     --color-content-warning: var(--color-orange-14);
-    --color-content-onfill-brand: var(--color-blue-2);
-    --color-content-onfill-info: var(--color-teal-16);
-    --color-content-onfill-success: var(--color-green-1);
-    --color-content-onfill-caution: var(--color-yellow-15);
-    --color-content-onfill-warning: var(--color-orange-16);
-    --color-content-onfill-critical: var(--color-red-1);
-    --color-content-onfill-discovery: var(--color-purple-1);
+    --color-content-on-fill-brand: var(--color-blue-2);
+    --color-content-on-fill-info: var(--color-teal-16);
+    --color-content-on-fill-success: var(--color-green-1);
+    --color-content-on-fill-caution: var(--color-yellow-15);
+    --color-content-on-fill-warning: var(--color-orange-16);
+    --color-content-on-fill-critical: var(--color-red-1);
+    --color-content-on-fill-discovery: var(--color-purple-1);
     /*Space*/
     --space-card-padding: var(--space-160);
     /*Radius */
