@@ -350,6 +350,7 @@
     --font-line-height-130: 13px;
 
     /* Effect styles */
+
     --elevation-shadow-600: 0px 20px 20px rgba(26, 26, 26, 0.28), inset 0px 1px 0px rgba(204, 204, 204, 0.5), inset 0px -1px 0px rgba(0, 0, 0, 0.17), inset -1px 0px 0px rgba(0, 0, 0, 0.17), inset 1px 0px 0px rgba(0, 0, 0, 0.13);
     --elevation-shadow-500: 0px 12px 20px rgba(26, 26, 26, 0.24), inset 0px 1px 0px rgba(204, 204, 204, 0.5), inset 0px -1px 0px rgba(0, 0, 0, 0.17), inset -1px 0px 0px rgba(0, 0, 0, 0.13), inset 1px 0px 0px rgba(0, 0, 0, 0.13);
     --elevation-shadow-400: 0px 8px 16px rgba(26, 26, 26, 0.22), inset 0px 1px 0px rgba(204, 204, 204, 0.5), inset 0px -1px 0px rgba(0, 0, 0, 0.17), inset -1px 0px 0px rgba(0, 0, 0, 0.13), inset 1px 0px 0px rgba(0, 0, 0, 0.13);
@@ -360,18 +361,7 @@
     --inset-shadow-inset-200: inset 0px 2px 1px rgba(26, 26, 26, 0.2), inset 1px 0px 1px rgba(26, 26, 26, 0.12), inset -1px 0px 1px rgba(26, 26, 26, 0.12);
     --bevel-shadow-bevel-100: inset 0px 1px 0px rgba(204, 204, 204, 0.5), inset 0px -1px 0px rgba(0, 0, 0, 0.17), inset -1px 0px 0px rgba(0, 0, 0, 0.13), inset 1px 0px 0px rgba(0, 0, 0, 0.13);
     --shadow-border-inset: inset 0px 0px 0px rgba(0, 0, 0, 0.08);
-    --shadow-button-default: inset 0px 1px 0px rgba(227, 227, 227, 1), inset 0px -2px 0px rgba(227, 227, 227, 1), inset 1px 0px 0px rgba(227, 227, 227, 1), inset -1px 0px 0px rgba(227, 227, 227, 1), inset 0px -1px 0px rgba(181, 181, 181, 1);
-    --shadow-button-hover: inset 0px 1px 0px rgba(235, 235, 235, 1), inset -1px 0px 0px rgba(235, 235, 235, 1), inset 1px 0px 0px rgba(235, 235, 235, 1), inset 0px -1px 0px rgba(204, 204, 204, 1);
-    --shadow-button-inset: inset 0px 2px 0px rgba(0, 0, 0, 0.6), inset 1px 0px 1px rgba(0, 0, 0, 0.2), inset -1px 0px 1px rgba(0, 0, 0, 0.2);
-    --shadow-button-primary: inset 0px 1px 0px rgba(0, 0, 0, 1), inset 0px -1px 0px rgba(0, 0, 0, 1), inset -2px 0px 0px rgba(255, 255, 255, 0.2), inset 2px 0px 0px rgba(255, 255, 255, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.2);
-    --shadow-button-primary-hover: inset 0px -1px 0px rgba(0, 0, 0, 1), inset 0px -1px 0px rgba(0, 0, 0, 1), inset -1px 0px 0px rgba(255, 255, 255, 0.2), inset 1px 0px 0px rgba(255, 255, 255, 0.2), inset 0px 1px 0px rgba(255, 255, 255, 0.24);
-    --shadow-button-primary-inset: inset 0px 3px 0px rgba(0, 0, 0, 1);
-    --shadow-button-primary-success: inset 0px 1px 0px rgba(255, 255, 255, 0.48), inset -1px 0px 0px rgba(255, 255, 255, 0.2), inset 1px 0px 0px rgba(255, 255, 255, 0.2), inset 0px -1.5px 0px rgba(0, 0, 0, 0.25);
-    --shadow-button-primary-success-hover: inset 0px 1px 0px rgba(255, 255, 255, 0.48), inset 1px 0px 0px rgba(255, 255, 255, 0.2), inset -1px 0px 0px rgba(255, 255, 255, 0.2), inset 0px -1.5px 0px rgba(0, 0, 0, 0.25);
-    --shadow-button-primary-success-inset: inset 0px 2px 0px rgba(0, 0, 0, 0.6), inset 1px 0px 1px rgba(0, 0, 0, 0.2), inset -1px 0px 1px rgba(0, 0, 0, 0.2);
-    --shadow-button-primary-critical: inset 0px 1px 0px rgba(255, 255, 255, 0.48), inset -1px 0px 0px rgba(255, 255, 255, 0.2), inset 1px 0px 0px rgba(255, 255, 255, 0.2), inset 0px -1.5px 0px rgba(0, 0, 0, 0.25);
-    --shadow-button-primary-critical-hover: inset 0px 1px 0px rgba(255, 255, 255, 0.48), inset 1px 0px 0px rgba(255, 255, 255, 0.2), inset -1px 0px 0px rgba(255, 255, 255, 0.2), inset 0px -1.5px 0px rgba(0, 0, 0, 0.25);
-    --shadow-button-primary-critical-inset: inset 0px 2px 0px rgba(0, 0, 0, 0.6), inset 1px 0px 1px rgba(0, 0, 0, 0.2), inset -1px 0px 1px rgba(0, 0, 0, 0.2);
+    --shadow-hover-primary: 0px 0px 0px 3px var(--color-blue-5);
 }
 
 
@@ -429,6 +419,11 @@ body {
 
 li {
     list-style: none;
+}
+
+a,
+button {
+    transition: all .3s linear;
 }
 
 button:focus {
