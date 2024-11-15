@@ -228,10 +228,10 @@
     --color-bg-screen-inverse: var(--color-neutral-16);
     --color-bg-surface-primary: var(--color-neutral-1);
     --color-bg-surface-secondary: var(--color-neutral-4);
-    --color-bg-surface-tertiary: var(--color-neutral-7);
+    --color-bg-surface-tertiary: var(--color-neutral-8);
     --color-bg-surface-inverse: var(--color-neutral-14);
-    --color-bg-surface-disabled: var(--color-neutral-7);
-    --color-bg-surface-brand: var(--color-blue-5);
+    --color-bg-surface-disabled: var(--color-neutral-6);
+    --color-bg-surface-brand: var(--color-blue-3);
     --color-bg-surface-info: var(--color-blue-4);
     --color-bg-surface-success: var(--color-green-3);
     --color-bg-surface-caution: var(--color-yellow-3);
@@ -361,7 +361,10 @@
     --inset-shadow-inset-200: inset 0px 2px 1px rgba(26, 26, 26, 0.2), inset 1px 0px 1px rgba(26, 26, 26, 0.12), inset -1px 0px 1px rgba(26, 26, 26, 0.12);
     --bevel-shadow-bevel-100: inset 0px 1px 0px rgba(204, 204, 204, 0.5), inset 0px -1px 0px rgba(0, 0, 0, 0.17), inset -1px 0px 0px rgba(0, 0, 0, 0.13), inset 1px 0px 0px rgba(0, 0, 0, 0.13);
     --shadow-border-inset: inset 0px 0px 0px rgba(0, 0, 0, 0.08);
-    --shadow-hover-primary: 0px 0px 0px 3px var(--color-blue-5);
+    --shadow-button-primary-hover: 0px 0px 0px 3px var(--color-blue-5);
+    --shadow-button-critical-hover: 0px 0px 0px 3px var(--color-red-5);
+    --shadow-button-success-hover: 0px 0px 0px 3px var(--color-green-3);
+    --shadow-button-tertiary-hover: 0px 0px 0px 3px var(--color-neutral-5);
 }
 
 
