@@ -285,7 +285,9 @@
     --color-border-focus: var(--color-blue-12);
     --color-border-brand: var(--color-blue-10);
     --color-border-info: var(--color-blue-8);
+    --color-border-info-secondary: var(--color-blue-12);
     --color-border-success: var(--color-green-5);
+    --color-border-success-secondary: var(--color-green-11);
     --color-border-caution: var(--color-yellow-5);
     --color-border-warning: var(--color-orange-8);
     --color-border-critical: var(--color-red-8);
