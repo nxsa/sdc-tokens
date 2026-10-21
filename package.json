@@ -1,0 +1,43 @@
+{
+  "name": "@nxsa/sdc-tokens",
+  "version": "1.0.0",
+  "description": "CSS custom properties and Tailwind CSS theme tokens for SDC.",
+  "type": "module",
+  "style": "tokens.css",
+  "sideEffects": [
+    "*.css"
+  ],
+  "files": [
+    "tokens.css",
+    "fonts",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "style": "./tokens.css",
+      "default": "./tokens.css"
+    },
+    "./tokens.css": "./tokens.css",
+    "./fonts/*": "./fonts/*",
+    "./package.json": "./package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nxsa/sdc-tokens.git"
+  },
+  "homepage": "https://github.com/nxsa/sdc-tokens#readme",
+  "bugs": {
+    "url": "https://github.com/nxsa/sdc-tokens/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "css",
+    "design-tokens",
+    "tailwindcss",
+    "tailwind",
+    "custom-properties"
+  ],
+  "license": "MIT"
+}
